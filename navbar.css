@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Ananda Font;
+    src: url('./fonts/Ananda-eL1n.ttf');
+}
+
 .NavbarItems {
-    background: #8a8a8a;
+    background: #000000;
     height: 80px;
     width: 100vw;
     display: flex;
@@ -8,6 +13,15 @@
     font-size: 1.4rem;  
     position: fixed;
     z-index: 2;
+}
+.iconDiv{
+    align-self: center;
+    padding-left: 40px;
+    height: 100%;
+}
+.fa-guitar{
+    color: white;
+    font-size: 40px;
 }
 
 .navbar-logo{
@@ -21,17 +35,19 @@
     padding: .3rem 1rem;
     display: flex;
     flex-wrap: nowrap; 
-    font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    width: max-content;
+    font-family: Ananda Font;
+    transition: all .4s ease-out; 
 }
 .nav-logo {
-    width:  50px;    
+    width:  50px;   
 }
 
 .navbar-logo:hover{
     background-color: #404040;
     border-radius: 4px;
-    transition: all .2s ease-out;   
+    transition: all .4s ease-out;
 }
 
 .nav-menu {
@@ -49,11 +65,14 @@
     color: white;
     text-decoration: none;
     padding: .5rem 1rem;
+    font-family: Ananda Font;
+    transition: all .4s ease-out;
 }
 
 .nav-links:hover{
     background-color: #404040;
     border-radius: 4px;
-    transition: all .2s ease-out;
+    transition: all .4s ease-out;
+
 }
 

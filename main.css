@@ -1,3 +1,21 @@
+@font-face {
+    font-family: Ananda Font;
+    src: url('./fonts/Ananda-eL1n.ttf');
+}
+@font-face {
+    font-family: soDoWe;
+    src: url('./fonts/BetterGrade-519DV.ttf');
+}
+@font-face {
+    font-family: question;
+    src: url('./fonts/Dirtyboy-BxYl.ttf');
+}
+@font-face {
+    font-family: Mangabey;
+    src: url('./fonts/MangabeyRegular-rgqVO.otf');
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +42,53 @@
   font-size: 60px;
   font-weight: 900;
 }
+.questionLine{
+    display: flex;
+    flex-direction: row;
+}
+.question{
+    font-size: 80px;
+    font-family: Mangabey;
+    color: white;
+}
+.soDoWe{
+    padding-left: 60px;
+    align-self: flex-end;
+    font-size: 90px;
+    font-weight: 500;
+    color: white;
+    font-family: soDoWe;
+}
+
+#tagLine{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: Mangabey;
+    font-size: 40px;
+    color: white;
+}
+#beginButton{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: soDoWe;
+    font-size: 70px;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    width: 140px;
+    align-self: center;
+    border-radius: 10px;
+    transition: .4s;
+    text-decoration: none;
+}
+#beginButton:hover{
+    background-color: rgb(64, 64, 64);
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
 
 table, th, td {
   border: 1px solid;
@@ -41,6 +106,11 @@ th{
   background-size: cover;
   background-position-y: bottom;
 }
+#landingPage{
+    background-image:url('./images/landingBackground.jpg');
+    background-size: cover;
+    background-position-y: 80px;
+  }
 .audioLabels{
   color: white;
    font-size:30px;
