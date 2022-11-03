@@ -101,10 +101,16 @@ th,td{
 th{
   text-decoration:underline
 }
-#carnivorePage{
+#VRPage{
   background-image:url('./images/guitarset.jpg');
   background-size: cover;
   background-position-y: bottom;
+}
+#contentspage{  
+    background-image:url('./images/contentback.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+
 }
 #landingPage{
     background-image:url('./images/landingBackground.jpg');
