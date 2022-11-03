@@ -2,6 +2,18 @@
     font-family: Ananda Font;
     src: url('./fonts/Ananda-eL1n.ttf');
 }
+@font-face {
+    font-family: soDoWe;
+    src: url('./fonts/BetterGrade-519DV.ttf');
+}
+@font-face {
+    font-family: question;
+    src: url('./fonts/Dirtyboy-BxYl.ttf');
+}
+@font-face {
+    font-family: Mangabey;
+    src: url('./fonts/MangabeyRegular-rgqVO.otf');
+}
 
 .NavbarItems {
     background: #000000;
@@ -37,7 +49,7 @@
     flex-wrap: nowrap; 
     cursor: pointer;
     width: max-content;
-    font-family: Ananda Font;
+    font-family: Mangabey;
     transition: all .4s ease-out; 
 }
 .nav-logo {
@@ -65,7 +77,8 @@
     color: white;
     text-decoration: none;
     padding: .5rem 1rem;
-    font-family: Ananda Font;
+    font-family: Mangabey;
+    font-size: 30px;
     transition: all .4s ease-out;
 }
 
