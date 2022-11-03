@@ -114,6 +114,12 @@ th{
     display: flex;
     flex-direction: column;
   }
+  #contentspage{  
+    background-image:url('./images/contentback.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+
+}
   .aboutTitle{
     position: absolute;
     top:100px;
